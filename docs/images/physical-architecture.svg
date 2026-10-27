@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="740" height="150" viewBox="-30 30 740 150" font-family="DejaVu Sans, Arial, sans-serif" font-size="12">
+<defs><marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5L0 10z" fill="#000"/></marker></defs>
+<rect x="-30" y="30" width="740" height="150" fill="#fff"/>
+<rect x="38" y="58" width="28" height="46" rx="5" fill="#00188F"/><rect x="42" y="64" width="20" height="31" rx="1" fill="#fff"/><rect x="48" y="98" width="8" height="2" rx="1" fill="#fff"/>
+<text x="52" y="122" text-anchor="middle">Client</text><text x="52" y="138" text-anchor="middle">Browser / Postman</text>
+<line x1="72" y1="81" x2="306" y2="81" stroke="#000" stroke-width="1" marker-end="url(#a)"/>
+<text x="190" y="72" text-anchor="middle">REST / HTTP(S)</text>
+<rect x="310" y="67" width="90" height="28" rx="4" fill="#00188F"/><circle cx="320" cy="86" r="3" fill="#fff"/><line x1="372" y1="77" x2="392" y2="77" stroke="#fff" stroke-width="1.5"/><line x1="372" y1="81" x2="392" y2="81" stroke="#fff" stroke-width="1.5"/><line x1="372" y1="85" x2="392" y2="85" stroke="#fff" stroke-width="1.5"/>
+<text x="355" y="112" text-anchor="middle">Application Server</text><text x="355" y="128" text-anchor="middle">Node.js / Express</text>
+<line x1="402" y1="81" x2="568" y2="81" stroke="#000" stroke-width="1" marker-end="url(#a)"/>
+<text x="485" y="72" text-anchor="middle">SQL / TLS</text>
+<rect x="570" y="67" width="90" height="28" rx="4" fill="#00188F"/><circle cx="580" cy="86" r="3" fill="#fff"/><line x1="632" y1="77" x2="652" y2="77" stroke="#fff" stroke-width="1.5"/><line x1="632" y1="81" x2="652" y2="81" stroke="#fff" stroke-width="1.5"/><line x1="632" y1="85" x2="652" y2="85" stroke="#fff" stroke-width="1.5"/>
+<text x="615" y="112" text-anchor="middle">Database Server</text><text x="615" y="128" text-anchor="middle">Supabase (PostgreSQL)</text>
+</svg>

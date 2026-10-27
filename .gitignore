@@ -1,0 +1,13 @@
+# Libraries downloaded by npm (anyone can re-download them with "npm install")
+node_modules/
+
+# Secrets: the real database password lives here. NEVER push this file.
+.env
+
+# Operating-system and editor clutter
+.DS_Store
+.vscode/
+.idea/
+
+# Logs
+npm-debug.log*

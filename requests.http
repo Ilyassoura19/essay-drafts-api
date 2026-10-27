@@ -1,0 +1,46 @@
+### Essay Drafts API — ready-made requests
+### In VS Code, install the "REST Client" extension, then click "Send Request"
+### above any request. Start the server first with: npm start
+
+@base = http://localhost:3000
+
+### Is the server up?
+GET {{base}}/
+
+### Create a draft (the server calculates word_count itself)
+POST {{base}}/drafts
+Content-Type: application/json
+
+{
+  "title": "My argumentative essay",
+  "content": "Technology has changed how students write and revise their work."
+}
+
+### List all drafts
+GET {{base}}/drafts
+
+### Get one draft
+GET {{base}}/drafts/1
+
+### Replace a draft
+PUT {{base}}/drafts/1
+Content-Type: application/json
+
+{
+  "title": "My argumentative essay (revised)",
+  "content": "Technology has deeply changed how students draft, revise and reflect."
+}
+
+### Delete a draft
+DELETE {{base}}/drafts/1
+
+### Error case: missing title -> 400 Bad Request
+POST {{base}}/drafts
+Content-Type: application/json
+
+{
+  "content": "No title here"
+}
+
+### Error case: unknown id -> 404 Not Found
+GET {{base}}/drafts/9999
